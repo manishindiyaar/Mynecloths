@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  
+   
+  <title>Mynecloths</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.menu-icon').click(function() {
+        $('.nav-links').toggleClass('active');
+      });
+    });
+  </script>
+
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/zaralogo.png" alt="Zara Logo">
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Man</a></li>
+            <li><a href="#">Woman</a></li>
+            
+          </ul>
+          <div class="cart-icon">
+           <a href="#" class="bag"> <i class="fas fa-shopping-bag"></i></a>
+          </div>
+          <div class="menu-icon">
+        <a href="#" class="menu"> <i class="fas fa-bars"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slideshow">
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="images/Product1.jpg" alt="Fashion Image">
+        </div>
+        <div class="slide">
+          <img src="images/Product2.jpg" alt="Fashion Image">
+        </div>
+        <div class="slide">
+          <img src="images/Product3.jpg" alt="Fashion Image">
+        </div>
+      </div>
+    </section>
+
+    
+    
+    <script src="script.js"></script>  
+</body>
+</html>
